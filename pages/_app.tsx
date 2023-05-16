@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
 import React, { ReactNode } from "react";
-import  "../styles/global.css"
 import { AppPropsX } from "../types/next";
 
 
