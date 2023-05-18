@@ -6,13 +6,15 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>
+    <div className='bg-[rgb(36,36,36)] text-white  snap-y snap-mandatory overflow-scroll z-0 h-screen'>
       <Head> 
         <title>OLATOY | Home</title>
       </Head>
         <Header />
-     {/* Hero */}
-        <Hero />
+        <section id='hero' className='snap-center'>
+            <Hero />
+        </section>
+       
      {/* About */}
 
      {/* Experience */}
