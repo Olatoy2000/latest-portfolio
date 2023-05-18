@@ -21,18 +21,33 @@ const Header = (props: Props) => {
             }}
             transition={{ duration: 1.5}}
         >
+             <SocialIcon url="https://www.linkedin.com/in/toyyib-oladejo-8161bb203" 
+            fgColor='gray'
+            bgColor='transparent'
+            />
+            <SocialIcon url="https://github.com/Olatoy2000" 
+            fgColor='gray'
+            bgColor='transparent'
+            />
             <SocialIcon className='' url="https://www.youtube.com/@oladejotoyyibolalekan9129" 
             fgColor='gray'
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.youtube.com/@oladejotoyyibolalekan9129" 
+            <SocialIcon url="oladejotoyyibolalekan@gmail.com" 
             fgColor='gray'
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.youtube.com/@oladejotoyyibolalekan9129" 
+            <SocialIcon url="https://twitter.com/oladejo_toyyib" 
             fgColor='gray'
             bgColor='transparent'
             />
+           
+            <SocialIcon url="https://www.facebook.com/oladejo.toyyibolalekan" 
+            fgColor='gray'
+            bgColor='transparent'
+            />
+            
+            
         </motion.div>
         <motion.div 
             initial={{

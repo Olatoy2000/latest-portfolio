@@ -1,3 +1,4 @@
+import About from '@/components/About'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import { NextPage } from 'next'
@@ -14,9 +15,7 @@ const index = () => {
         <section id='hero' className='snap-center'>
             <Hero />
         </section>
-       
-     {/* About */}
-
+        <About />
      {/* Experience */}
 
      {/* Skills */}
