@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <header className='sticky top-0 flex  items-start xl:items-center z-20 p-5 justify-between mx-auto max-w-screen-2xl'>
+    <header className='sticky top-0 flex items-start xl:items-center z-20 p-5 justify-between mx-auto max-w-screen-2xl'>
         <motion.div
             initial={{
                 opacity: 0,
@@ -20,6 +20,7 @@ const Header = (props: Props) => {
                 scale: 1
             }}
             transition={{ duration: 1.5}}
+            className="flex flex-row items-center"
         >
              <SocialIcon url="https://www.linkedin.com/in/toyyib-oladejo-8161bb203" 
             fgColor='gray'

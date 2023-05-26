@@ -22,7 +22,7 @@ const Hero = (props: Props) => {
     <div className='h-screen flex flex-col items-center space-y-8 justify-center text-center overflow-hidden'>
         <BackgroundCircle />
         {/* <Icon icon="mdi:person-circle" width="100" height="100" />        */}
-        <img src='/olatoy-website.png' alt='' className='w-[200px] h-[200px] mx-auto rounded-full object-cover relative' />
+        <img src='/toyyib-profile1.png' alt='' className='w-[200px] h-[200px] mx-auto rounded-full object-cover relative' />
         <div className='z-20'>
             <h2 className='text-sm text-gray-500 pb-2 tracking-[15px]'>Frontend Developer</h2>
             <h1 className='text-5xl font-semibold lg:text-6xl pb-10'>
