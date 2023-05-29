@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import SecondSkill from './html'
+import Skill from './skill'
 
 type Props = {}
 
