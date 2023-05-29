@@ -3,7 +3,8 @@ import React from 'react'
 
 type Props = {}
 
-const ExperienceCard = (props: Props) => {
+
+const GraduateIntern = (props: Props) => {
   return (
     <article className='flex flex-col rounded-lg space-y-7 items-center flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100
     cursor-pointer overflow-hidden transition-opacity duration-200 '>
@@ -18,7 +19,7 @@ const ExperienceCard = (props: Props) => {
        className="object-center w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] p-3 object-contain border-[#ccc] border bg-white"
        src='./afexLogo.png' />
       <div className='px-0 md:px-10'>
-        <h3 className='text-4xl font-light'>Internship Training</h3>
+        <h3 className='text-4xl font-light'>Graduate Intern</h3>
         <p className='text-2xl font-bold mt-1'>AFEX</p>
         <div className='flex space-x-2 my-2'>
           <img className='h-10 w-10 rounded-full' src='/html.png'/>
@@ -29,9 +30,10 @@ const ExperienceCard = (props: Props) => {
           <img className='h-10 w-10 rounded-full' src='/nextjs-2.avif'/>
         </div>
         <div className='flex flex-col items-start justify-start space-y-4 text-lg mb-4'>
-            <p>Starting Date: <span>May 24th, 2022.</span></p>
-            <p>Ending Date: <span>October, 2023.</span></p>
+            <p>Starting Date: <span>Jan, 23rd, 2023.</span></p>
+            <p>Ending Date: <span>Jan, 23rd, 2024.</span></p>
         </div>
+        
         <ul className='list-disc space-y-4 ml-5 text-lg'>
         <li>Summary point Summary point </li>
         <li>Summary point Summary point </li>
@@ -43,5 +45,7 @@ const ExperienceCard = (props: Props) => {
      
     </article>
   )
+
 }
-export default ExperienceCard
+
+export default GraduateIntern

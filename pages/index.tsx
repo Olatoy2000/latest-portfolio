@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Projects from '@/components/project'
 import Skills from '@/components/skills'
 import WorkExperience from '@/components/workExperience'
 import { NextPage } from 'next'
@@ -23,10 +24,12 @@ const index = () => {
        <section className='snap-center' id='experience'>
         <WorkExperience />
        </section>
-      <section className='snap-center' id='experience'>
+      <section className='snap-center' id='skills'>
         <Skills />
       </section>
-     {/* Projects */}
+      <section className='snap-start' id='projects'>
+        <Projects />
+      </section>
 
      {/* Contadt Me */}
     </div> 
