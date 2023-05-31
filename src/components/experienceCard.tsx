@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import { Tooltip } from '@mantine/core';
 
-type Props = {}
+type Props = {
+
+}
 
 const ExperienceCard = (props: Props) => {
   return (
@@ -33,12 +36,22 @@ const ExperienceCard = (props: Props) => {
             <p>Ending Date: <span>October, 2023.</span></p>
         </div>
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-        <li>Summary point Summary point </li>
-        <li>Summary point Summary point </li>
-        <li>Summary point Summary point </li>
-        <li>Summary point Summary point </li>
-      </ul>
-      
+        <li>Learnt the basis of software development, HTML and CSS </li>
+        <li>Learnt JavaScript and TypeScript </li>
+        <li>Learnt React, NextJS and TailwindCSS</li>
+       
+        <li>Collaborated in building the new 
+        <Tooltip
+          label={"click on this colored texts to take you to the afex tech star website"}
+          color="dark"
+          withArrow
+          arrowSize={6}
+          width={200}
+          multiline>
+          <a href='https://afexats.com' target="_blank" className='text-blue-500'>AFEX Tech Stars</a>
+          </Tooltip>
+          as the final assessment given to the frontend team </li>
+      </ul>    
       </div>
      
     </article>

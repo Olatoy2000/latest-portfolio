@@ -31,15 +31,13 @@ const GraduateIntern = (props: Props) => {
         </div>
         <div className='flex flex-col items-start justify-start space-y-4 text-lg mb-4'>
             <p>Starting Date: <span>Jan, 23rd, 2023.</span></p>
-            <p>Ending Date: <span>Jan, 23rd, 2024.</span></p>
+            <p>Till present...</p>
         </div>
         
         <ul className='list-disc space-y-4 ml-5 text-lg'>
-        <li>Summary point Summary point </li>
-        <li>Summary point Summary point </li>
-        <li>Summary point Summary point </li>
-        <li>Summary point Summary point </li>
-      </ul>
+            <li>Collaborated with another frontend colleage to build hrportal</li>
+            <li>Collaborated with another frontend colleage to build xpertCard</li>
+        </ul>
       
       </div>
      

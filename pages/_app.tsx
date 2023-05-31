@@ -3,6 +3,8 @@ import { useRouter } from "next/router";
 import React, { ReactNode } from "react";
 import { AppPropsX } from "../types/next";
 import  "../src/styles/global.css";
+import { MantineProvider } from "@mantine/core";
+import { Notifications } from "@mantine/notifications";
 
 export default function App({ Component, pageProps }: AppPropsX) {
   const GivenLayout = Component.Layout;
@@ -23,9 +25,13 @@ export default function App({ Component, pageProps }: AppPropsX) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <Layout {...layoutProps}>
-        <Component {...pageProps} />
-      </Layout>  
+      <MantineProvider theme={{ loader: "oval" }}>
+        <Notifications position="top-right" />
+          <Layout {...layoutProps}>
+            <Component {...pageProps} />
+          </Layout> 
+      </MantineProvider>
+      
     </>
   );
 }
